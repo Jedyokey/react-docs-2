@@ -6,12 +6,12 @@ body {
   margin: 10px;
   padding: 0;
   overflow-x: hidden; 
-  background-color: aliceblue;
+  background-color: aliceblue;   
 }
 .navbar {
   /* background-color: rgb(135, 143, 52); */
   background-color: #BDB76B;
-  padding: 20px;
+  padding: 14px 20px;
   margin: -12px;
   text-align: center;
   margin-bottom: 20px;
@@ -23,8 +23,13 @@ body {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.nav-bar .nav-link:hover {
+.navbar .nav-link:hover {
   text-decoration: underline;
+}
+.active {
+  background-color: #BC8F8F;   
+  padding: 4px 10px;     
+  border-radius: 7px;
 }
 
 /* Adding Interactivity */ 

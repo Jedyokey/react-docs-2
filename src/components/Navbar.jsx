@@ -1,12 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <Link className='nav-link' to="/">Interactivity</Link>
-      <Link className='nav-link' to="/responding-to-events">EventResponse</Link>
-      <Link className='nav-link' to="/all-about-state">UseState</Link>
+      <NavLink 
+        to="/" 
+        className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        Interactivity
+      </NavLink>
+      <NavLink 
+        to="/responding-to-events" 
+        className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        EventResponse
+      </NavLink>
+      <NavLink 
+        to="/all-about-state" 
+        className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        UseState
+      </NavLink>
+      <NavLink 
+        to="/queueing-a-series-of-state-updates" 
+        className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        State_Update
+      </NavLink>
     </div>
   )
 }

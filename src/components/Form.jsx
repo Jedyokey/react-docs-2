@@ -4,7 +4,7 @@ const Form = () => {
     const [name, setName] = useState("Alice");
     const [message, setMessage] = useState("Hello");
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e) => { 
         e.preventDefault();
         setTimeout(() => {
             alert(`You said ${message} to ${name}`);

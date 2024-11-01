@@ -6,7 +6,11 @@ const UseState3 = () => {
 
     const handleClick = () => {
         const name = prompt("What is your name?"); 
-        (alert(`Hi, ${name}`));
+        if (name) {
+            alert(`Hi, ${name}`); 
+        } else {
+            alert("No name provided");
+        }
     }
   return (
     <div>
