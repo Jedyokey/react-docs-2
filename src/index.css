@@ -55,3 +55,10 @@ label .updateForm {
 .play-btn  {
   margin-right: 20px;
 } 
+
+/* Updating objects in state */
+.imageArt {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
