@@ -5,6 +5,7 @@ import Canvas from '../challenges/Canvas'
 const StateExercise = () => {
   return (
     <div>
+        {/* Updating Objects in State */}
         <h2>Try out some challenges (updating objects in state)</h2>
       
         <h2>Challenge 1 of 3: Fix incorrect state updates </h2>
