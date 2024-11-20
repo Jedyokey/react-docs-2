@@ -1,6 +1,6 @@
 import React from 'react'
 import ListArray from '../components/ListArray'
-import ListArray2 from '../components/ListArray2'
+import RemoveArray from '../components/RemoveArray'
 import ShapeEditor from '../components/ShapeEditor'
 import CounterList from '../components/CounterList'
 
@@ -11,7 +11,7 @@ const UpdateArray = () => {
         <ListArray />
       
         <h2>Removing from an array</h2>
-        <ListArray2 />
+        <RemoveArray />
 
         <h2>Transforming an array</h2>
         <ShapeEditor />

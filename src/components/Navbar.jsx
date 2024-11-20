@@ -45,6 +45,12 @@ const Navbar = () => {
         className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
         UpdateArray_2
       </NavLink>
+
+      <NavLink 
+        to="/update-array-in-state-challenges" 
+        className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}>
+        ArrayChallenge
+      </NavLink>
     </div>
   )
 }

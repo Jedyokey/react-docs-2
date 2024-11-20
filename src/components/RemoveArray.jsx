@@ -8,7 +8,7 @@ let initialArtists = [
     {id: 4, name: "Otobong Nkanga"}
 ]
 
-const ListArray2 = () => {
+const RemoveArray = () => {
     const [artists, setArtists] = useState(initialArtists);
   return (
     <div>
@@ -32,4 +32,4 @@ const ListArray2 = () => {
   )
 }
 
-export default ListArray2
+export default RemoveArray

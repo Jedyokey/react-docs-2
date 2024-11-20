@@ -1,7 +1,6 @@
 import React from 'react'
 import Scoreboard from '../challenges/Scoreboard'
 import Canvas from '../challenges/Canvas'
-
 const StateExercise = () => {
   return (
     <div>
